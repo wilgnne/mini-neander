@@ -1,0 +1,526 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA_lite/17.0
+Ecu
+Z0 w1645127441
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/Wilgnne/Desktop/MiniNeander
+Z6 8C:/Users/Wilgnne/Desktop/MiniNeander/CU.vhd
+Z7 FC:/Users/Wilgnne/Desktop/MiniNeander/CU.vhd
+l0
+L5
+V@b`BU6e60YRLO525T2ZXL1
+!s100 O<dNgfWE55dnz]e=g4df^3
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1645134379
+!i10b 1
+Z10 !s108 1645134379.000000
+Z11 !s90 -reportprogress|300|-work|MiniNeander|-2002|-explicit|-stats=none|C:/Users/Wilgnne/Desktop/MiniNeander/CU.vhd|
+Z12 !s107 C:/Users/Wilgnne/Desktop/MiniNeander/CU.vhd|
+!i113 1
+Z13 o-work MiniNeander -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Acu_behave
+R1
+R2
+R3
+R4
+DEx4 work 2 cu 0 22 @b`BU6e60YRLO525T2ZXL1
+l42
+L19
+Ve@8k9DPJeJo5>9YDZhTU`3
+!s100 Ym`oTD`24]hj65D5:@A2n2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ecu_tb
+Z15 w1645119418
+R1
+R2
+R3
+R4
+R5
+Z16 8C:/Users/Wilgnne/Desktop/MiniNeander/CU_tb.vhd
+Z17 FC:/Users/Wilgnne/Desktop/MiniNeander/CU_tb.vhd
+l0
+L5
+VOhiMRDWLT3^YlOCM<PGmM0
+!s100 4Hn9PaMYLW4CiK6@R>FX71
+R8
+32
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-work|MiniNeander|-2002|-explicit|-stats=none|C:/Users/Wilgnne/Desktop/MiniNeander/CU_tb.vhd|
+Z19 !s107 C:/Users/Wilgnne/Desktop/MiniNeander/CU_tb.vhd|
+!i113 1
+R13
+R14
+Acu_behave_tb
+R1
+R2
+R3
+R4
+DEx4 work 5 cu_tb 0 22 OhiMRDWLT3^YlOCM<PGmM0
+l32
+L8
+V9iH8NFdf^FGm[NTPI^YDJ0
+!s100 KNiEJ<TdE@lBeI40o@Oj?2
+R8
+32
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Ememory
+Z20 w1645133988
+R1
+R2
+R3
+R4
+R5
+Z21 8C:/Users/Wilgnne/Desktop/MiniNeander/Memory.vhd
+Z22 FC:/Users/Wilgnne/Desktop/MiniNeander/Memory.vhd
+l0
+L5
+Vad<^ecHTSTNj=;Z8aoc^M0
+!s100 FM]DYLUG?bJnVkm_[N;f=0
+R8
+32
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-work|MiniNeander|-2002|-explicit|-stats=none|C:/Users/Wilgnne/Desktop/MiniNeander/Memory.vhd|
+Z24 !s107 C:/Users/Wilgnne/Desktop/MiniNeander/Memory.vhd|
+!i113 1
+R13
+R14
+Amemory_behave
+R1
+R2
+R3
+R4
+DEx4 work 6 memory 0 22 ad<^ecHTSTNj=;Z8aoc^M0
+l33
+L14
+VHIXzSF:ejXP`a9ddUhd>l3
+!s100 9M@k3cWLG9g3R7E7J^4<92
+R8
+32
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Ememory_tb
+Z25 w1645132735
+R1
+R2
+R3
+R4
+R5
+Z26 8C:/Users/Wilgnne/Desktop/MiniNeander/Memory_tb.vhd
+Z27 FC:/Users/Wilgnne/Desktop/MiniNeander/Memory_tb.vhd
+l0
+L5
+V><:>S1oYI1Ze<X@M`2g=i1
+!s100 @M]@KaQWX0K70JI;fgz?40
+R8
+32
+Z28 !s110 1645134378
+!i10b 1
+Z29 !s108 1645134378.000000
+Z30 !s90 -reportprogress|300|-work|MiniNeander|-2002|-explicit|-stats=none|C:/Users/Wilgnne/Desktop/MiniNeander/Memory_tb.vhd|
+Z31 !s107 C:/Users/Wilgnne/Desktop/MiniNeander/Memory_tb.vhd|
+!i113 1
+R13
+R14
+Amemory_behave_tb
+R1
+R2
+R3
+R4
+DEx4 work 9 memory_tb 0 22 ><:>S1oYI1Ze<X@M`2g=i1
+l23
+L8
+VZ6SRRFaW^0B@X4[b`gIzc1
+!s100 bled;]E5Y8MW=2BGGEA072
+R8
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R13
+R14
+Eminineander
+Z32 w1645133862
+R1
+R2
+R3
+R4
+R5
+Z33 8C:/Users/Wilgnne/Desktop/MiniNeander/MiniNeander.vhd
+Z34 FC:/Users/Wilgnne/Desktop/MiniNeander/MiniNeander.vhd
+l0
+L5
+Vo39H?fJP0g<4HY1EQ??F13
+!s100 ^8aWMICOno@5CVbO==[:d0
+R8
+32
+R9
+!i10b 1
+R10
+Z35 !s90 -reportprogress|300|-work|MiniNeander|-2002|-explicit|-stats=none|C:/Users/Wilgnne/Desktop/MiniNeander/MiniNeander.vhd|
+Z36 !s107 C:/Users/Wilgnne/Desktop/MiniNeander/MiniNeander.vhd|
+!i113 1
+R13
+R14
+Abehave
+R1
+R2
+R3
+R4
+Z37 DEx4 work 11 minineander 0 22 o39H?fJP0g<4HY1EQ??F13
+l85
+L14
+Z38 VJGokX7X]nQQ9N_P3c9S412
+Z39 !s100 30E:Uem1HU93[FTKA3kA72
+R8
+32
+R9
+!i10b 1
+R10
+R35
+R36
+!i113 1
+R13
+R14
+Eminineander_tb
+Z40 w1645134364
+R1
+R2
+R3
+R4
+R5
+Z41 8C:/Users/Wilgnne/Desktop/MiniNeander/MiniNeander_tb.vhd
+Z42 FC:/Users/Wilgnne/Desktop/MiniNeander/MiniNeander_tb.vhd
+l0
+L5
+V72iIB7mLXcIXCaW84:Z^^1
+!s100 1<=anM];]C<PXG]Kze2Gz0
+R8
+32
+R9
+!i10b 1
+R10
+Z43 !s90 -reportprogress|300|-work|MiniNeander|-2002|-explicit|-stats=none|C:/Users/Wilgnne/Desktop/MiniNeander/MiniNeander_tb.vhd|
+Z44 !s107 C:/Users/Wilgnne/Desktop/MiniNeander/MiniNeander_tb.vhd|
+!i113 1
+R13
+R14
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 14 minineander_tb 0 22 72iIB7mLXcIXCaW84:Z^^1
+l84
+L8
+V3<AfRnC_gel4V7?Zle?Bg1
+!s100 ]oL1[lINO2^KT1@DBdF3F0
+R8
+32
+R9
+!i10b 1
+R10
+R43
+R44
+!i113 1
+R13
+R14
+Epc
+Z45 w1645116752
+R1
+R2
+R3
+R4
+R5
+Z46 8C:/Users/Wilgnne/Desktop/MiniNeander/PC.vhd
+Z47 FC:/Users/Wilgnne/Desktop/MiniNeander/PC.vhd
+l0
+L5
+VRjC6]=CTd?>dG:mmBfz;:1
+!s100 W:^R=fImF]G@JTH;Q5hom0
+R8
+32
+R28
+!i10b 1
+R29
+Z48 !s90 -reportprogress|300|-work|MiniNeander|-2002|-explicit|-stats=none|C:/Users/Wilgnne/Desktop/MiniNeander/PC.vhd|
+Z49 !s107 C:/Users/Wilgnne/Desktop/MiniNeander/PC.vhd|
+!i113 1
+R13
+R14
+Apc_behave
+R1
+R2
+R3
+R4
+DEx4 work 2 pc 0 22 RjC6]=CTd?>dG:mmBfz;:1
+l19
+L15
+V^SoV]:HT@:V<;V=8VWTmP3
+!s100 ?UF6N@@BnG8^?=CmI;6Hl1
+R8
+32
+R28
+!i10b 1
+R29
+R48
+R49
+!i113 1
+R13
+R14
+Epc_tb
+Z50 w1645115269
+R1
+R2
+R3
+R4
+R5
+Z51 8C:/Users/Wilgnne/Desktop/MiniNeander/PC_tb.vhd
+Z52 FC:/Users/Wilgnne/Desktop/MiniNeander/PC_tb.vhd
+l0
+L5
+V8hBUz9hXLHh=i]PjkCC3c2
+!s100 O;P:659l9En0^1@`^P@:83
+R8
+32
+R28
+!i10b 1
+R29
+Z53 !s90 -reportprogress|300|-work|MiniNeander|-2002|-explicit|-stats=none|C:/Users/Wilgnne/Desktop/MiniNeander/PC_tb.vhd|
+Z54 !s107 C:/Users/Wilgnne/Desktop/MiniNeander/PC_tb.vhd|
+!i113 1
+R13
+R14
+Apc_behave_tb
+R1
+R2
+R3
+R4
+DEx4 work 5 pc_tb 0 22 8hBUz9hXLHh=i]PjkCC3c2
+l24
+L8
+VjE;1<h^a[R3n<99fAA?1D1
+!s100 =K6I7W0_N]mhm1BUG?IC>2
+R8
+32
+R28
+!i10b 1
+R29
+R53
+R54
+!i113 1
+R13
+R14
+Ereg
+Z55 w1645114201
+R1
+R2
+R3
+R4
+R5
+Z56 8C:/Users/Wilgnne/Desktop/MiniNeander/REG.vhd
+Z57 FC:/Users/Wilgnne/Desktop/MiniNeander/REG.vhd
+l0
+L5
+Vh6einWL7Y:Q7M@=QUVKlN3
+!s100 Ci;b08jT=U2b0U4^k<[ig0
+R8
+32
+Z58 !s110 1645134376
+!i10b 1
+Z59 !s108 1645134376.000000
+Z60 !s90 -reportprogress|300|-work|MiniNeander|-2002|-explicit|-stats=none|C:/Users/Wilgnne/Desktop/MiniNeander/REG.vhd|
+Z61 !s107 C:/Users/Wilgnne/Desktop/MiniNeander/REG.vhd|
+!i113 1
+R13
+R14
+Areg_behave
+R1
+R2
+R3
+R4
+DEx4 work 3 reg 0 22 h6einWL7Y:Q7M@=QUVKlN3
+l17
+L15
+VfVTJS5_bfHGX]2R]6Pgn_1
+!s100 bDePU>6V]b>WR:SOoD]g<3
+R8
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R13
+R14
+Ereg_tb
+Z62 w1645114764
+R1
+R2
+R3
+R4
+R5
+Z63 8C:/Users/Wilgnne/Desktop/MiniNeander/REG_tb.vhd
+Z64 FC:/Users/Wilgnne/Desktop/MiniNeander/REG_tb.vhd
+l0
+L5
+V0X]Ej6:]LzK^gCNF]QDPe1
+!s100 VUX2963`F9zGOI8`BQ7iI1
+R8
+32
+R58
+!i10b 1
+R59
+Z65 !s90 -reportprogress|300|-work|MiniNeander|-2002|-explicit|-stats=none|C:/Users/Wilgnne/Desktop/MiniNeander/REG_tb.vhd|
+Z66 !s107 C:/Users/Wilgnne/Desktop/MiniNeander/REG_tb.vhd|
+!i113 1
+R13
+R14
+Areg_behave_tb
+R1
+R2
+R3
+R4
+DEx4 work 6 reg_tb 0 22 0X]Ej6:]LzK^gCNF]QDPe1
+l24
+L8
+VC4Hgka8?IENenib:IS`YA3
+!s100 4?_mEfdo56X868<9;8^BG0
+R8
+32
+R58
+!i10b 1
+R59
+R65
+R66
+!i113 1
+R13
+R14
+Eula
+Z67 w1644155888
+R1
+R2
+R3
+R4
+R5
+Z68 8C:/Users/Wilgnne/Desktop/MiniNeander/ULA.vhd
+Z69 FC:/Users/Wilgnne/Desktop/MiniNeander/ULA.vhd
+l0
+L5
+VaKaRWEF>;eH^d]>oi:cIg1
+!s100 6]PFR2a4T7<11QDz=K0WD2
+R8
+32
+R9
+!i10b 1
+R10
+Z70 !s90 -reportprogress|300|-work|MiniNeander|-2002|-explicit|-stats=none|C:/Users/Wilgnne/Desktop/MiniNeander/ULA.vhd|
+Z71 !s107 C:/Users/Wilgnne/Desktop/MiniNeander/ULA.vhd|
+!i113 1
+R13
+R14
+Aula_behave
+R1
+R2
+R3
+R4
+DEx4 work 3 ula 0 22 aKaRWEF>;eH^d]>oi:cIg1
+l17
+L15
+VZDZ0glB30FncJ6ML2CD`Q1
+!s100 CfP5>Q`ZCT_[Ezi3bzC:K1
+R8
+32
+R9
+!i10b 1
+R10
+R70
+R71
+!i113 1
+R13
+R14
+Eula_tb
+Z72 w1644158425
+R1
+R2
+R3
+R4
+R5
+Z73 8C:/Users/Wilgnne/Desktop/MiniNeander/ULA_tb.vhd
+Z74 FC:/Users/Wilgnne/Desktop/MiniNeander/ULA_tb.vhd
+l0
+L5
+V=]:01^@D9ELNm>EJZ_Q:V2
+!s100 0e4<Pja<7>6aLi7^_=1>I3
+R8
+32
+R9
+!i10b 1
+R10
+Z75 !s90 -reportprogress|300|-work|MiniNeander|-2002|-explicit|-stats=none|C:/Users/Wilgnne/Desktop/MiniNeander/ULA_tb.vhd|
+Z76 !s107 C:/Users/Wilgnne/Desktop/MiniNeander/ULA_tb.vhd|
+!i113 1
+R13
+R14
+Aula_behave_tb
+R1
+R2
+R3
+R4
+DEx4 work 6 ula_tb 0 22 =]:01^@D9ELNm>EJZ_Q:V2
+l24
+L8
+VlM5R2c:?oR_>m[FYVD:b_2
+!s100 N7oSW>K1Uga_Bb]NW;E^Y2
+R8
+32
+R9
+!i10b 1
+R10
+R75
+R76
+!i113 1
+R13
+R14

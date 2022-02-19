@@ -1,0 +1,44 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity REG_tb is
+end REG_tb;
+
+architecture REG_Behave_tb of REG_tb is
+
+component REG is
+	PORT(
+		X		: in STD_LOGIC_VECTOR(7 downto 0);
+		CLK	: in STD_LOGIC;
+		Z		: out STD_LOGIC_VECTOR(7 downto 0)
+	);
+end component;
+
+signal CLK : STD_LOGIC := '0';
+signal X   : STD_LOGIC_VECTOR(7 downto 0) := "00000000";
+signal Z   : STD_LOGIC_VECTOR(7 downto 0) := "00000000";
+
+begin
+
+	DUT: REG port map(X => X, CLK => CLK, Z => Z);
+
+	proc: process
+	begin
+		wait for 10 ns;
+		
+		CLK <= '1';
+		X <= "00000010";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		X <= "00000000";
+		wait for 10 ns;
+		
+		CLK <= '1';
+		X <= "01000000";
+		wait for 10 ns;
+		
+	end process;
+
+end REG_Behave_tb;

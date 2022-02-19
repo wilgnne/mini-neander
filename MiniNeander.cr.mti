@@ -1,0 +1,111 @@
+C:/Users/Wilgnne/Desktop/MiniNeander/CU.vhd {1 {vcom -work MiniNeander -2002 -explicit -stats=none C:/Users/Wilgnne/Desktop/MiniNeander/CU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity CU
+-- Compiling architecture CU_Behave of CU
+
+} {} {}} C:/Users/Wilgnne/Desktop/MiniNeander/PC_tb.vhd {1 {vcom -work MiniNeander -2002 -explicit -stats=none C:/Users/Wilgnne/Desktop/MiniNeander/PC_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity PC_tb
+-- Compiling architecture PC_Behave_tb of PC_tb
+
+} {} {}} C:/Users/Wilgnne/Desktop/MiniNeander/ULA.vhd {1 {vcom -work MiniNeander -2002 -explicit -stats=none C:/Users/Wilgnne/Desktop/MiniNeander/ULA.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ULA
+-- Compiling architecture ULA_Behave of ULA
+
+} {} {}} C:/Users/Wilgnne/Desktop/MiniNeander/PC.vhd {1 {vcom -work MiniNeander -2002 -explicit -stats=none C:/Users/Wilgnne/Desktop/MiniNeander/PC.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity PC
+-- Compiling architecture PC_Behave of PC
+
+} {} {}} C:/Users/Wilgnne/Desktop/MiniNeander/CU_tb.vhd {1 {vcom -work MiniNeander -2002 -explicit -stats=none C:/Users/Wilgnne/Desktop/MiniNeander/CU_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity CU_tb
+-- Compiling architecture CU_Behave_tb of CU_tb
+
+} {} {}} C:/Users/Wilgnne/Desktop/MiniNeander/Memory_tb.vhd {1 {vcom -work MiniNeander -2002 -explicit -stats=none C:/Users/Wilgnne/Desktop/MiniNeander/Memory_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Memory_tb
+-- Compiling architecture Memory_Behave_tb of Memory_tb
+
+} {} {}} C:/Users/Wilgnne/Desktop/MiniNeander/REG.vhd {1 {vcom -work MiniNeander -2002 -explicit -stats=none C:/Users/Wilgnne/Desktop/MiniNeander/REG.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity REG
+-- Compiling architecture REG_Behave of REG
+
+} {} {}} C:/Users/Wilgnne/Desktop/MiniNeander/ULA_tb.vhd {1 {vcom -work MiniNeander -2002 -explicit -stats=none C:/Users/Wilgnne/Desktop/MiniNeander/ULA_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ULA_tb
+-- Compiling architecture ULA_Behave_tb of ULA_tb
+
+} {} {}} C:/Users/Wilgnne/Desktop/MiniNeander/Memory.vhd {1 {vcom -work MiniNeander -2002 -explicit -stats=none C:/Users/Wilgnne/Desktop/MiniNeander/Memory.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Memory
+-- Compiling architecture Memory_Behave of Memory
+
+} {} {}} C:/Users/Wilgnne/Desktop/MiniNeander/MiniNeander.vhd {1 {vcom -work MiniNeander -2002 -explicit -stats=none C:/Users/Wilgnne/Desktop/MiniNeander/MiniNeander.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MiniNeander
+-- Compiling architecture behave of MiniNeander
+
+} {} {}} C:/Users/Wilgnne/Desktop/MiniNeander/REG_tb.vhd {1 {vcom -work MiniNeander -2002 -explicit -stats=none C:/Users/Wilgnne/Desktop/MiniNeander/REG_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity REG_tb
+-- Compiling architecture REG_Behave_tb of REG_tb
+
+} {} {}}

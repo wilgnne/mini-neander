@@ -1,0 +1,148 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity Memory_tb is
+end Memory_tb;
+
+architecture Memory_Behave_tb of Memory_tb is
+
+component Memory is
+	PORT(
+		ADRR	: IN STD_LOGIC_VECTOR (4 DOWNTO 0);
+		CLK	: IN STD_LOGIC  := '1';
+		Q		: OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+	);
+end component;
+
+signal ADRR : STD_LOGIC_VECTOR(4 downto 0) := "00000";
+signal CLK  : STD_LOGIC := '0';
+signal Q   	: STD_LOGIC_VECTOR(15 downto 0);
+
+begin
+
+	DUT: Memory port map(ADRR, CLK, Q);
+
+	proc: process
+	begin
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "00000";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "00001";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "00010";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "00011";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "00100";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "00101";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "00110";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "00111";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		
+		CLK <= '1';
+		ADRR <= "01000";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "01001";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "01010";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "01011";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		
+		
+		CLK <= '1';
+		ADRR <= "01100";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "01101";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "01110";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		CLK <= '1';
+		ADRR <= "01111";
+		wait for 10 ns;
+		
+		CLK <= '0';
+		wait for 10 ns;
+		
+		
+	end process;
+
+end Memory_Behave_tb;

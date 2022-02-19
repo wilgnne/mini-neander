@@ -1,0 +1,90 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity CU is
+	PORT(
+		CLK		: in STD_LOGIC;
+		RES		: in STD_LOGIC;
+		UPCODE	: in STD_LOGIC_VECTOR (7 DOWNTO 0);
+		
+		stateOut : out STD_LOGIC_VECTOR (3 DOWNTO 0);
+		UPCODECuOut : out STD_LOGIC_VECTOR (3 DOWNTO 0);
+		
+		SIG		: OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
+	);
+ 
+end CU;
+
+architecture CU_Behave of CU is
+
+-- INC RES STOP LOAD SEL SEL SEL SEL
+signal SIGin : STD_LOGIC_VECTOR (7 DOWNTO 0) := "00000000";
+
+-- X + Y		0000 0001
+-- X and Y 	0000 0010
+-- X or Y 	0000 0011
+-- Not X 	0000 0100
+-- Y 			0000 0101
+-- HALT 		0000 0110
+
+-- BUSCA  > DECODIFICA > EXECUTA > SALVA > INC
+signal state : STD_LOGIC_VECTOR (3 DOWNTO 0) := "0000";
+
+signal UPCODEin : STD_LOGIC_VECTOR (3 DOWNTO 0);
+
+begin
+
+	process (CLK, RES)
+	begin
+		if (RES = '1') then
+			state <= "0000";
+			SIGin <= "01000000";
+		elsif (rising_edge(CLK)) then
+			case state is
+				when "0000" => 								-- BUSCA e 
+					state <= "0001";
+				when "0001" =>									-- DECODIFICA
+					UPCODEin <= UPCODE(3 DOWNTO 0);
+					state <= "0010";
+				when "0010" =>									-- EXECUTA
+					state <= "0011";
+					SIGin <= "00000000";
+					case UPCODEin is
+						when "0001" =>								-- ADD
+							SIGin <= "0000" & UPCODEin;
+						when "0010" =>								-- AND
+							SIGin <= "0000" & UPCODEin;
+						when "0011" =>								-- OR
+							SIGin <= "0000" & UPCODEin;
+						when "0100" =>								-- NOT
+							SIGin <= "0000" & UPCODEin;
+						when "0101" =>								-- LOAD
+							SIGin <= "0000" & UPCODEin;
+						when "0110" =>								-- HALT
+							state <= "1111";
+						when OTHERS =>								-- NOP
+							state <= "0100";
+					end case;
+					
+				when "0011" =>									-- SALVA
+					SIGin <= "00010000";
+					state <= "0100";
+				when "0100" =>									-- INC
+					SIGin <= "10000000";
+					state <= "0000";
+				when "1111" =>
+					state <= "1111";							-- HALT
+				when OTHERS =>
+					SIGin <= "01000000";
+					state <= "0000";
+			end case;
+		end if;
+		
+	end process;
+	
+	SIG <= SIGin;
+	stateOut <= state;
+	UPCODECuOut <= UPCODEin;
+
+end CU_Behave;

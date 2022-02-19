@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Z[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Z[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Z[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Z[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Z[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Z[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Z[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Z[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RES",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

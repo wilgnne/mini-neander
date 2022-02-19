@@ -1,0 +1,27 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity REG is
+	PORT(
+		X:   in STD_LOGIC_VECTOR(7 downto 0);
+		CLK: in STD_LOGIC;
+		Z:   out STD_LOGIC_VECTOR(7 downto 0) := "00000000"
+	);
+ 
+end REG;
+
+architecture REG_Behave of REG is
+
+begin
+
+	process (CLK)
+	begin
+	
+		if (rising_edge(CLK)) then
+			Z <= X;
+		end if;
+		
+	end process;
+
+end REG_Behave;

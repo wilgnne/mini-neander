@@ -1,0 +1,33 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity PC is
+	PORT(
+		RES: in STD_LOGIC;
+		INC: in STD_LOGIC;
+		Z:   out STD_LOGIC_VECTOR(4 downto 0)
+	);
+ 
+end PC;
+
+architecture PC_Behave of PC is
+
+signal Zin: STD_LOGIC_VECTOR(4 downto 0) := "00000";
+
+begin
+
+	process (INC, RES)
+	begin
+		
+		if (RES = '1') then
+			Zin <= "00000";
+		elsif (rising_edge(INC)) then
+			Zin <= Zin + '1';
+		end if;
+		
+	end process;
+	
+	Z <= Zin;
+
+end PC_Behave;
